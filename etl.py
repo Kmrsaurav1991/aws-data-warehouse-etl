@@ -4,7 +4,7 @@ from sql_queries import copy_table_queries, insert_table_queries
 
 
 def load_staging_tables(cur, conn):
-     """
+    """
         This user-defined function uses the COPY command to execute a list of load queries that load  data from a 
         file in an s3 bucket into a stage table..
         inputs:
